@@ -18,3 +18,7 @@
 .hero.has-carousel .hero-body {
   z-index: initial !important;
 }
+.flotante {
+  position: fixed; 
+  top: 3rem;
+}
