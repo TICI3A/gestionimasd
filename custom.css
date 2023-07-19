@@ -18,7 +18,25 @@
 .hero.has-carousel .hero-body {
   z-index: initial !important;
 }
+#carousel .container {
+  margin-top: -5rem;
+}
 .flotante {
   position: fixed; 
   top: 3rem;
+}
+.footer {
+  padding-top: 0;
+}
+footer .columns {
+  align-items: center;
+}
+@media only screen and (max-width: 768px) {
+  .no-mobile {
+    display: none;
+  }
+}
+hr {
+  background: linear-gradient(rgb(245, 245, 245), #fff);
+ height: 6rem;
 }
