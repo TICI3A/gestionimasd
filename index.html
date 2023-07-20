@@ -16,25 +16,25 @@
       <section>
         <!-- *********************** MENU *********************** -->
         <nav class="navbar" role="navigation" aria-label="main navigation">
-          <div class="navbar-brand">                        
+          <!-- <div class="navbar-brand">                        
               <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarEvent">
                   <span aria-hidden="true"></span>
                   <span aria-hidden="true"></span>
                   <span aria-hidden="true"></span>
               </a>
-          </div>
+          </div> -->
       
-          <div id="navbarEvent" class="navbar-menu">
+          <!-- <div id="navbarEvent" class="navbar-menu"> -->
           <div class="navbar-start">   
           </div>
       
           <div class="navbar-end">
-            <div class="navbar-item flotante">
+            <div class="navbar-item ">
               <div class="buttons">                   
 
                   <div class="dropdown is-hoverable">
                       <div class="dropdown-trigger">
-                          <button class="button color5 is-outlined mr-4" aria-haspopup="true" aria-controls="dropdown-menu">
+                          <button class="button color5 is-outlined  mr-4" aria-haspopup="true" aria-controls="dropdown-menu">
                           <span class="icon is-small">
                               <i class="fas fa-bars"></i>
                           </span>
@@ -541,7 +541,14 @@
 
     </footer>
 
-      
+    <button onclick="topFunction()" id="myBtn" title="Ir arriba" class="button is-primary has-text-white flotante2">
+      <span class="icon is-medium">
+        <i class="fas fa-chevron-up"></i>
+      </span>
+    </button>
+
+    <!-- *********************** JS *********************** -->
+    <script src="custom.js"></script>
 
 		<script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
 		<script>
@@ -552,16 +559,8 @@
         loop: true,
         autoplaySpeed: 6000
 			});
-		</script>
-    <script>
-      /* Funcionamiento del menú hamburguesa */
-      const burguerIcon = document.querySelector(".navbar-burger");
-      const navbarMenu = document.querySelector(".navbar-menu");
-
-      burguerIcon.addEventListener("click", function () {
-        navbarMenu.classList.toggle('is-active');
-      });
-    </script>
+		</script>   
+    
 
   </body>
 </html>

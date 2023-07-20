@@ -23,7 +23,14 @@
 }
 .flotante {
   position: fixed; 
-  top: 2rem;
+  bottom: 2rem;
+}
+.flotante2 {
+  position: fixed;
+    bottom: 40px;
+    right: 30px;
+    z-index: 99;
+    cursor: pointer;
 }
 .footer {
   padding: 0 1.5rem 3rem 1.5rem;
